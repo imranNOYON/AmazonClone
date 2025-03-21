@@ -1,6 +1,6 @@
 "use client"
 import { Product } from "@/lib/type";
-import toast from "react-hot-toast";
+import { toast } from 'sonner'
 import { twMerge } from "tailwind-merge";
 
 interface Props {
