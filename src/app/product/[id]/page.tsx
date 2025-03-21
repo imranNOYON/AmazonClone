@@ -134,7 +134,8 @@ const SingleProductPage = async ({ params }: Props) => {
       </Container>
     );
   } catch (error) {
-    return <div>Error loading product details.</div>;
+    console.error("Error fetching product details:", error); // Log the error
+    return <div>Error loading product details. Please try again later.</div>; // Display error message
   }
 };
 
